@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cerrajero Viladecans 24h · Urgencias · 936 94 25 08</title>
+<meta name="description" content="Cerrajero en Viladecans 24 horas. Apertura de puertas, cambio de bombines y cerraduras de seguridad. Precio cerrado antes de empezar. Llama al 936 94 25 08.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#141d28;
+    --ink-2:#1c2837;
+    --paper:#f6f4ef;
+    --paper-2:#efece4;
+    --brass:#c79a48;
+    --brass-bright:#e2bd6a;
+    --call:#16a05c;
+    --call-dark:#0f7d47;
+    --text:#19222d;
+    --muted:#5d6b7a;
+    --line:rgba(20,29,40,.12);
+    --display:'Archivo',system-ui,sans-serif;
+    --body:'Figtree',system-ui,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--body);
+    color:var(--text);
+    background:var(--paper);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    padding-bottom:76px;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+  .topbar{background:var(--ink);color:#fff;font-family:var(--display);font-weight:600;font-size:14px;letter-spacing:.04em;}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:46px}
+  .topbar .brandmark{display:flex;align-items:center;gap:9px}
+  .topbar .dot{width:9px;height:9px;border-radius:50%;background:var(--call);box-shadow:0 0 0 0 rgba(22,160,92,.6);animation:pulse 2s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(22,160,92,.55)}70%{box-shadow:0 0 0 9px rgba(22,160,92,0)}100%{box-shadow:0 0 0 0 rgba(22,160,92,0)}}
+  .topbar .open{color:#cdd6e0;text-transform:uppercase;font-size:12.5px}
+  .topbar .top-call{color:var(--brass-bright)}
+  .hero{position:relative;background:radial-gradient(120% 90% at 85% -10%, rgba(199,154,72,.16), transparent 55%),linear-gradient(180deg,var(--ink) 0%, var(--ink-2) 100%);color:#fff;overflow:hidden;}
+  .hero .keyhole{position:absolute;right:-60px;top:50%;transform:translateY(-50%);width:380px;height:380px;opacity:.10;pointer-events:none;}
+  .hero .wrap{position:relative;padding:54px 22px 60px}
+  .eyebrow{font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass-bright);display:flex;align-items:center;gap:12px;margin-bottom:20px;}
+  .eyebrow::before{content:"";width:34px;height:2px;background:var(--brass)}
+  h1{font-family:var(--display);font-weight:900;font-size:clamp(2.4rem,7vw,4rem);line-height:1.02;letter-spacing:-.02em;max-width:14ch;}
+  h1 .accent{color:var(--brass-bright)}
+  .hero p.lead{margin-top:18px;font-size:clamp(1.05rem,2.4vw,1.25rem);color:#cfd8e2;max-width:44ch;}
+  .call-block{margin-top:30px;display:flex;flex-direction:column;gap:12px;max-width:440px}
+  .btn-call{display:flex;align-items:center;justify-content:center;gap:13px;background:var(--call);color:#fff;font-family:var(--display);font-weight:800;font-size:clamp(1.35rem,4.5vw,1.7rem);letter-spacing:.01em;padding:19px 24px;border-radius:14px;box-shadow:0 12px 30px -8px rgba(22,160,92,.6);transition:transform .12s ease, background .15s ease;}
+  .btn-call:hover{background:var(--call-dark);transform:translateY(-2px)}
+  .btn-call:active{transform:translateY(0)}
+  .btn-call svg{width:26px;height:26px;flex:none}
+  .call-sub{display:flex;align-items:center;gap:9px;color:#aeb9c6;font-size:14.5px;font-weight:500}
+  .call-sub b{color:#fff;font-weight:700}
+  .btn-wa{display:inline-flex;align-items:center;gap:9px;align-self:flex-start;color:#cfd8e2;font-weight:600;font-size:15px;border:1px solid rgba(255,255,255,.22);padding:11px 16px;border-radius:11px;transition:border-color .15s,color .15s;}
+  .btn-wa:hover{border-color:var(--brass);color:#fff}
+  .trust{background:var(--ink-2);border-top:1px solid rgba(255,255,255,.07)}
+  .trust .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;padding:0}
+  .trust .item{padding:22px 18px;text-align:center;color:#dfe5ec;background:var(--ink-2);}
+  .trust .item b{display:block;font-family:var(--display);font-weight:800;color:#fff;font-size:1.05rem;margin-bottom:3px}
+  .trust .item span{font-size:13.5px;color:#9fabb9;line-height:1.35;display:block}
+  section.block{padding:64px 0}
+  .section-head{margin-bottom:38px;max-width:54ch}
+  .section-head .kick{font-family:var(--display);font-weight:700;font-size:12.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--brass);margin-bottom:12px;}
+  .section-head h2{font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.08;letter-spacing:-.015em;}
+  .section-head p{margin-top:12px;color:var(--muted);font-size:1.05rem}
+  .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .svc{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px 24px;transition:transform .14s ease, box-shadow .14s ease;}
+  .svc:hover{transform:translateY(-3px);box-shadow:0 16px 34px -18px rgba(20,29,40,.35)}
+  .svc .ico{width:46px;height:46px;border-radius:11px;display:grid;place-items:center;background:linear-gradient(150deg,var(--brass),var(--brass-bright));margin-bottom:16px;}
+  .svc .ico svg{width:24px;height:24px;color:var(--ink)}
+  .svc h3{font-family:var(--display);font-weight:700;font-size:1.18rem;margin-bottom:7px}
+  .svc p{color:var(--muted);font-size:.97rem}
+  .how{background:var(--paper-2)}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;counter-reset:s}
+  .step{position:relative;padding:30px 24px 26px;background:#fff;border-radius:16px;border:1px solid var(--line)}
+  .step::before{counter-increment:s;content:counter(s);font-family:var(--display);font-weight:900;font-size:2.6rem;color:var(--brass);line-height:1;display:block;margin-bottom:10px;}
+  .step h3{font-family:var(--display);font-weight:700;font-size:1.12rem;margin-bottom:6px}
+  .step p{color:var(--muted);font-size:.96rem}
+  .promise{background:var(--ink);color:#fff}
+  .promise .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:46px;align-items:center}
+  .promise h2{font-family:var(--display);font-weight:800;font-size:clamp(1.6rem,3.6vw,2.3rem);line-height:1.1;letter-spacing:-.015em}
+  .promise h2 .accent{color:var(--brass-bright)}
+  .promise p{color:#c4cdd7;margin-top:16px;font-size:1.05rem}
+  .promise ul{list-style:none;margin-top:24px;display:flex;flex-direction:column;gap:13px}
+  .promise li{display:flex;gap:12px;align-items:flex-start;font-size:1rem;color:#e7ecf1}
+  .promise li svg{width:22px;height:22px;color:var(--call);flex:none;margin-top:1px}
+  .promise .card{background:linear-gradient(165deg,var(--ink-2),#16212f);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:30px;text-align:center;}
+  .promise .card .lab{font-family:var(--display);font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:12px;color:var(--brass-bright)}
+  .promise .card .num{font-family:var(--display);font-weight:900;font-size:2.4rem;letter-spacing:.01em;margin:10px 0 4px;color:#fff;}
+  .promise .card a.mini-call{display:inline-flex;margin-top:18px;background:var(--call);color:#fff;font-family:var(--display);font-weight:800;font-size:1.05rem;padding:13px 22px;border-radius:11px;gap:9px;align-items:center;transition:background .15s;}
+  .promise .card a.mini-call:hover{background:var(--call-dark)}
+  .zones .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+  .chip{background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 17px;font-weight:600;font-size:.94rem;color:#33404e;}
+  .chip::before{content:"📍 ";font-size:.85em}
+  .final{background:linear-gradient(160deg,var(--brass),#b6863a);color:var(--ink);text-align:center}
+  .final .wrap{padding:60px 22px}
+  .final h2{font-family:var(--display);font-weight:900;font-size:clamp(1.9rem,5vw,2.8rem);line-height:1.05;letter-spacing:-.02em}
+  .final p{margin:14px auto 0;max-width:42ch;font-size:1.1rem;color:#3a2f17;font-weight:500}
+  .final .btn-call{display:inline-flex;margin-top:28px;background:var(--ink);box-shadow:0 14px 30px -10px rgba(20,29,40,.6)}
+  .final .btn-call:hover{background:#0c141d}
+  footer{background:var(--ink);color:#9fabb9;font-size:14px}
+  footer .wrap{padding:34px 22px;display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:center}
+  footer .fbrand{font-family:var(--display);font-weight:800;color:#fff;font-size:1.05rem;letter-spacing:.02em}
+  footer a.fcall{color:var(--brass-bright);font-weight:700}
+  footer .legal{font-size:12.5px;color:#6b7785;max-width:60ch;line-height:1.5}
+  .sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;display:none;background:var(--call);box-shadow:0 -6px 20px -6px rgba(0,0,0,.35);}
+  .sticky a{display:flex;align-items:center;justify-content:center;gap:11px;color:#fff;font-family:var(--display);font-weight:800;font-size:1.25rem;padding:17px;letter-spacing:.01em;}
+  .sticky svg{width:23px;height:23px}
+  @media(max-width:860px){.promise .wrap{grid-template-columns:1fr;gap:30px}.svc-grid,.steps{grid-template-columns:1fr}.trust .wrap{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:640px){.sticky{display:block}.hero .keyhole{opacity:.07;right:-110px}section.block{padding:50px 0}}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+  a:focus-visible,.btn-call:focus-visible{outline:3px solid var(--brass-bright);outline-offset:3px;border-radius:6px}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="brandmark"><span class="dot"></span><span class="open">Abierto ahora · 24 h</span></span>
+    <a class="top-call" href="tel:+34936942508">☎ 936 94 25 08</a>
+  </div>
+</div>
+
+<header class="hero">
+  <svg class="keyhole" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+    <circle cx="50" cy="40" r="20" stroke="#e2bd6a" stroke-width="3"/>
+    <path d="M44 56 L40 82 L60 82 L56 56 Z" stroke="#e2bd6a" stroke-width="3" stroke-linejoin="round"/>
+  </svg>
+  <div class="wrap">
+    <div class="eyebrow">Cerrajería de urgencia · Viladecans</div>
+    <h1>Cerrajero en Viladecans <span class="accent">24 horas</span></h1>
+    <p class="lead">¿Cerradura bloqueada o te has quedado fuera? Llegamos rápido, abrimos sin dramas y te decimos el precio <strong>antes</strong> de empezar.</p>
+    <div class="call-block">
+      <a class="btn-call" href="tel:+34936942508">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.7 21 3 13.3 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1L6.6 10.8z"/></svg>
+        Llamar 936 94 25 08
+      </a>
+      <div class="call-sub"><b>Respuesta inmediata</b> · técnicos en la zona · pago en efectivo o tarjeta</div>
+      <a class="btn-wa" href="https://wa.me/34677305411" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.8.9.9-2.7-.2-.3A8 8 0 1 1 12 20zm4.4-5.6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.2-2.8c-.1-.2 0-.4.1-.5l.4-.5c.1-.2.1-.3 0-.5l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3c-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.2.7 3 .6.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-.4-.3z"/></svg>
+        O escríbenos por WhatsApp
+      </a>
+    </div>
+  </div>
+</header>
+
+<div class="trust">
+  <div class="wrap">
+    <div class="item"><b>24 h / 365 días</b><span>También noches y festivos</span></div>
+    <div class="item"><b>Llegada rápida</b><span>Técnicos en Viladecans</span></div>
+    <div class="item"><b>Precio cerrado</b><span>Lo sabes antes de empezar</span></div>
+    <div class="item"><b>Efectivo o tarjeta</b><span>Como te venga mejor</span></div>
+  </div>
+</div>
+
+<section class="block">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kick">Qué resolvemos</div>
+      <h2>Si es una cerradura, lo solucionamos</h2>
+      <p>Trabajos de cerrajería para casa, comunidad y local en Viladecans y alrededores.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h12M11 8l4 4-4 4"/><path d="M19 4v16" stroke-width="2.2"/></svg></div>
+        <h3>Apertura de puertas</h3>
+        <p>Te has dejado las llaves dentro o has perdido las tuyas. Abrimos intentando no dañar la cerradura siempre que se pueda.</p>
+      </div>
+      <div class="svc">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div>
+        <h3>Cerraduras bloqueadas o forzadas</h3>
+        <p>Cerradura que no gira, llave partida dentro o tras un intento de robo. La reparamos o sustituimos en el momento.</p>
+      </div>
+      <div class="svc">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="12" r="4"/><path d="M12 12h9M17 12v4M21 12v3"/></svg></div>
+        <h3>Cambio de bombines</h3>
+        <p>Instalamos y cambiamos bombines de todo tipo, incluidos antibumping y de alta seguridad. Te asesoramos según tu puerta.</p>
+      </div>
+      <div class="svc">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3>Cerraduras de seguridad</h3>
+        <p>Instalación de cerraduras de seguridad, cerrojos y refuerzos para que tu puerta aguante mucho más.</p>
+      </div>
+      <div class="svc">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><circle cx="12" cy="12.5" r="2.5"/><path d="M12 10V8"/></svg></div>
+        <h3>Cajas fuertes y trasteros</h3>
+        <p>Apertura y cambio de combinación de cajas fuertes, candados y cerraduras de trastero o garaje.</p>
+      </div>
+      <div class="svc">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg></div>
+        <h3>Urgencias 24 h</h3>
+        <p>De madrugada, en fin de semana o en festivo. Si tienes una emergencia con una cerradura, descuelga y llámanos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block how">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kick">Cómo funciona</div>
+      <h2>Tres pasos y vuelves a entrar</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <h3>Llamas y nos cuentas</h3>
+        <p>Nos explicas qué pasa con la puerta o la cerradura. Te damos una orientación de precio por teléfono.</p>
+      </div>
+      <div class="step">
+        <h3>Vamos hacia ti</h3>
+        <p>Un cerrajero sale hacia tu dirección en Viladecans lo antes posible, con las herramientas listas.</p>
+      </div>
+      <div class="step">
+        <h3>Precio cerrado y resolvemos</h3>
+        <p>Antes de empezar te confirmamos el precio. Sin sorpresas. Cuando dices sí, lo solucionamos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block promise">
+  <div class="wrap">
+    <div>
+      <h2>Cerrajero sí, <span class="accent">sustos no</span></h2>
+      <p>Todos hemos oído historias de cerrajeros que dan un precio por teléfono y cobran el triple al terminar. Aquí no.</p>
+      <ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Te decimos el precio <strong>antes</strong> de tocar la cerradura.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Intentamos abrir sin romper siempre que la cerradura lo permite.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Factura de lo que pagas, en efectivo o con tarjeta.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Cerrajeros que trabajan en la zona, no centralitas lejanas.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="lab">Llama ahora · 24 h</div>
+      <div class="num">936 94 25 08</div>
+      <div style="color:#9fabb9;font-size:14px">Viladecans y alrededores</div>
+      <a class="mini-call" href="tel:+34936942508">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.7 21 3 13.3 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1L6.6 10.8z"/></svg>
+        Llamar ahora
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="block zones">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kick">Dónde trabajamos</div>
+      <h2>Cubrimos todo Viladecans</h2>
+      <p>Y poblaciones cercanas. Si tu zona no está en la lista, llámanos y te lo confirmamos.</p>
+    </div>
+    <div class="chips">
+      <span class="chip">Centre</span>
+      <span class="chip">Eixample</span>
+      <span class="chip">Can Sellarès</span>
+      <span class="chip">Can Vinyes</span>
+      <span class="chip">Les Sínies</span>
+      <span class="chip">Can Fruitós</span>
+      <span class="chip">Porta Catalana</span>
+      <span class="chip">Sant Martí d'Avall</span>
+      <span class="chip">Gavà</span>
+      <span class="chip">Castelldefels</span>
+      <span class="chip">El Prat de Llobregat</span>
+      <span class="chip">Sant Boi de Llobregat</span>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>¿Cerrado fuera ahora mismo?</h2>
+    <p>No fuerces la puerta ni esperes. Un cerrajero de Viladecans está a una llamada.</p>
+    <a class="btn-call" href="tel:+34936942508">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.7 21 3 13.3 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1L6.6 10.8z"/></svg>
+      936 94 25 08
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="fbrand">Cerrajero Viladecans 24 h</div>
+      <div style="margin-top:6px">Urgencias todos los días · <a class="fcall" href="tel:+34936942508">936 94 25 08</a></div>
+    </div>
+    <div class="legal">
+      Servicio de cerrajería en Viladecans (Barcelona). Atención 24 horas para aperturas de puertas, cambio de bombines y cerraduras de seguridad. Los precios se confirman antes de realizar el trabajo.
+    </div>
+  </div>
+</footer>
+
+<div class="sticky">
+  <a href="tel:+34936942508">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.7 21 3 13.3 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1L6.6 10.8z"/></svg>
+    Llamar ahora · 936 94 25 08
+  </a>
+</div>
+
+</body>
+</html>
